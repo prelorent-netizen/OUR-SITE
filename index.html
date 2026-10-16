@@ -1,0 +1,428 @@
+<!doctype html>
+<html lang="el">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebDev Solutions | Ιστοσελίδες ΙΚΕ & Επαγγελματική Παρουσία</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <header class="navbar">
+      <div class="nav-container">
+        <a href="#hero" class="nav-brand">
+          <i class="fas fa-layer-group brand-icon"></i>
+          <span>WebDev<strong>Solutions</strong></span>
+        </a>
+
+        <button class="nav-toggle" id="nav-toggle" aria-label="Μενού">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <nav class="nav-menu" id="nav-menu">
+          <a href="#services" class="nav-link">Υπηρεσίες</a>
+          <a href="#pricing" class="nav-link">Πακέτα & Τιμές</a>
+          <a href="#contact" class="btn btn-primary nav-cta">Επικοινωνία</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="container hero-content">
+        <div class="badge-pill">
+          <i class="fas fa-shield-alt"></i> Πλήρης Συμμόρφωση με Ν. 4072/2012 &
+          ΓΕΜΗ
+        </div>
+        <h1>
+          Κατασκευή Ιστοσελίδων για Επιχειρήσεις & ΙΚΕ με
+          <span>Ετήσια Υποστήριξη</span>
+        </h1>
+        <p class="hero-subtitle">
+          Ξενοιάστε από πρόστιμα και τεχνικά ζητήματα. Αναλαμβάνουμε τη νόμιμη
+          ανάρτηση στοιχείων, το domain, τη φιλοξενία και τη σύγχρονη ψηφιακή
+          σας παρουσία από μόλις <strong>79€ / έτος + ΦΠΑ</strong>.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#pricing" class="btn btn-primary btn-large">
+            Δείτε τα Πακέτα <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#contact" class="btn btn-outline btn-large">
+            <i class="fas fa-phone-alt"></i> Άμεση Επικοινωνία
+          </a>
+        </div>
+
+        <div class="trust-strip">
+          <div class="trust-item">
+            <i class="fas fa-check-circle"></i> 100% Συμβατότητα ΓΕΜΗ
+          </div>
+          <div class="trust-item">
+            <i class="fas fa-check-circle"></i> Συμπεριλαμβάνεται Domain (.gr) &
+            SSL
+          </div>
+          <div class="trust-item">
+            <i class="fas fa-check-circle"></i> Παράδοση σε 24–48 ώρες
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION -->
+    <section class="services section-padding" id="services">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Γιατι Εμας</span>
+          <h2>Όλα όσα χρειάζεται μια σύγχρονη εταιρεία</h2>
+          <p>
+            Χωρίς κρυφές χρεώσεις, τεχνικούς πονοκεφάλους και καθυστερήσεις.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="icon-wrapper">
+              <i class="fas fa-balance-scale"></i>
+            </div>
+            <h3>Νομική Εγκυρότητα</h3>
+            <p>
+              Πλήρης κάλυψη των υποχρεώσεων ανάρτησης εταιρικών στοιχείων και
+              οικονομικών καταστάσεων (ισολογισμοί) βάσει της νομοθεσίας.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div class="icon-wrapper">
+              <i class="fas fa-server"></i>
+            </div>
+            <h3>All-in-One Φιλοξενία</h3>
+            <p>
+              Στο ετήσιο κόστος περιλαμβάνονται domain, ταχύτατο cloud hosting,
+              πιστοποιητικό SSL και backup ασφαλείας.
+            </p>
+          </article>
+
+          <article class="service-card">
+            <div class="icon-wrapper">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <h3>Mobile & Responsive</h3>
+            <p>
+              Άψογη προβολή σε κινητά, tablets και υπολογιστές, με μοντέρνο και
+              καθαρό design που εμπνέει σοβαρότητα.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRICING SECTION -->
+    <section class="pricing section-padding" id="pricing">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Διαφανης Τιμολογηση</span>
+          <h2>Ετήσια Πακέτα Συνεργασίας</h2>
+          <p>
+            Όλες οι αναγραφόμενες τιμές αφορούν ετήσια συνδρομή και
+            επιβαρύνονται με ΦΠΑ.
+          </p>
+        </div>
+
+        <div class="pricing-grid">
+          <!-- ΠΑΚΕΤΟ 1 -->
+          <!-- ΠΑΚΕΤΟ 1 -->
+          <article class="pricing-card">
+            <div class="card-header">
+              <h3>ΙΚΕ Compliance</h3>
+              <p class="plan-desc">
+                Για πλήρη νομική κάλυψη στο ΓΕΜΗ & αποφυγή προστίμων.
+              </p>
+              <div class="price">
+                <span class="currency">€</span><span class="amount">79</span
+                ><span class="period">/έτος</span>
+              </div>
+              <span class="vat-tag">+ ΦΠΑ</span>
+              <span class="badge-sub">Ισοδύναμο: ~6,50€ / μήνα</span>
+            </div>
+
+            <ul class="features-list">
+              <li>
+                <i class="fas fa-check"></i> Καταχώριση στοιχείων ΓΕΜΗ & ΑΦΜ
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Ανάρτηση 1 ισολογισμού/έτος (PDF)
+              </li>
+              <li><i class="fas fa-check"></i> Domain .gr & Cloud Hosting</li>
+              <li><i class="fas fa-check"></i> Πιστοποιητικό SSL (HTTPS)</li>
+              <li class="disabled">
+                <i class="fas fa-times"></i> Εμπορική παρουσίαση υπηρεσιών
+              </li>
+            </ul>
+
+            <!-- Demo Link -->
+            <a
+              href="https://your-demo-ike.gr"
+              target="_blank"
+              rel="noopener"
+              class="preview-link"
+            >
+              <i class="fas fa-external-link-alt"></i> Δείτε παράδειγμα ΙΚΕ
+            </a>
+
+            <a href="#contact" class="btn btn-card">Επιλογή Πακέτου</a>
+          </article>
+
+          <!-- ΠΑΚΕΤΟ 2 (FEATURED) -->
+          <article class="pricing-card featured">
+            <div class="popular-ribbon">Προτεινόμενο</div>
+            <div class="card-header">
+              <h3>One-Page Business</h3>
+              <p class="plan-desc">
+                Η ψηφιακή επαγγελματική σας κάρτα & site ΙΚΕ μαζί.
+              </p>
+              <div class="price">
+                <span class="currency">€</span><span class="amount">119</span
+                ><span class="period">/έτος</span>
+              </div>
+              <span class="vat-tag vat-featured">+ ΦΠΑ</span>
+              <span class="badge-sub">Μόλις +3,30€ / μήνα από το απλό</span>
+            </div>
+
+            <ul class="features-list">
+              <li>
+                <i class="fas fa-check"></i>
+                <strong>Όλα του πακέτου ΙΚΕ Compliance</strong>
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Παρουσίαση υπηρεσιών σε ενότητες
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Click-to-call & κουμπί αποστολής
+                email
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Χάρτης Google Maps & Social links
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Μικρές αλλαγές στοιχείων εντός του
+                έτους
+              </li>
+            </ul>
+
+            <!-- Demo Link -->
+            <a
+              href="https://your-demo-onepage.gr"
+              target="_blank"
+              rel="noopener"
+              class="preview-link preview-link-featured"
+            >
+              <i class="fas fa-external-link-alt"></i> Δείτε live demo
+              μονοσέλιδου
+            </a>
+
+            <a href="#contact" class="btn btn-primary btn-card"
+              >Επιλογή Πακέτου</a
+            >
+          </article>
+
+          <!-- ΠΑΚΕΤΟ 3 -->
+          <article class="pricing-card">
+            <div class="card-header">
+              <h3>Multi-Page (Έως 5 σελ.)</h3>
+              <p class="plan-desc">
+                Ολοκληρωμένη εταιρική παρουσίαση με πολλαπλές ενότητες.
+              </p>
+              <div class="price">
+                <span class="currency">€</span><span class="amount">249</span
+                ><span class="period">/έτος</span>
+              </div>
+              <span class="vat-tag">+ ΦΠΑ</span>
+              <span class="badge-sub">Ισοδύναμο: ~20,70€ / μήνα</span>
+            </div>
+
+            <ul class="features-list">
+              <li>
+                <i class="fas fa-check"></i> Σελίδες: Αρχική, Εταιρεία,
+                Υπηρεσίες κ.α.
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Ειδική ενότητα Ισολογισμών & ΓΕΜΗ
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Managed Cloud Hosting & Backups
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Cookie Banner (GDPR compliance)
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Τεχνική υποστήριξη όλο το έτος
+              </li>
+            </ul>
+
+            <!-- Demo Link -->
+            <a
+              href="https://your-demo-multipage.gr"
+              target="_blank"
+              rel="noopener"
+              class="preview-link"
+            >
+              <i class="fas fa-external-link-alt"></i> Δείτε δείγμα εταιρικού
+              site
+            </a>
+
+            <a href="#contact" class="btn btn-card">Επιλογή Πακέτου</a>
+          </article>
+
+          <!-- ΠΑΚΕΤΟ 4 -->
+          <article class="pricing-card">
+            <div class="card-header">
+              <h3>Custom Solution</h3>
+              <p class="plan-desc">
+                Εξατομικευμένη σχεδίαση και προηγμένη λειτουργικότητα.
+              </p>
+              <div class="price">
+                <span class="currency">€</span><span class="amount">399</span
+                ><span class="period">/έτος</span>
+              </div>
+              <span class="vat-tag">+ ΦΠΑ</span>
+              <span class="badge-sub">Ισοδύναμο: ~33,25€ / μήνα</span>
+            </div>
+
+            <ul class="features-list">
+              <li>
+                <i class="fas fa-check"></i> Custom Design προσαρμοσμένο στο
+                brand
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Dynamic modules (portfolio,
+                κρατήσεις κτλ.)
+              </li>
+              <li>
+                <i class="fas fa-check"></i> High performance cloud server
+                resources
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Προτεραιότητα στην τεχνική
+                υποστήριξη
+              </li>
+              <li>
+                <i class="fas fa-check"></i> Πλήρης κάλυψη domain & hosting
+              </li>
+            </ul>
+
+            <!-- Ενημερωτική ένδειξη αντί για link επίδειξης -->
+            <div class="preview-link preview-custom-note">
+              <i class="fas fa-sliders-h"></i> Σχεδίαση βάσει των αναγκών σας
+            </div>
+
+            <a href="#contact" class="btn btn-card">Επιλογή Πακέτου</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section-padding">
+      <div class="container">
+        <div class="contact-box">
+          <span class="section-tag">Επικοινωνια</span>
+          <h2>Ξεκινήστε την Ιστοσελίδα σας Σήμερα</h2>
+          <p class="contact-subtitle">
+            Καλέστε μας άμεσα ή στείλτε μας email με το πακέτο που σας
+            ενδιαφέρει για άμεση έναρξη.
+          </p>
+
+          <div class="direct-contact-grid">
+            <!-- Τηλέφωνο -->
+            <a href="tel:+306900000000" class="direct-contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="contact-info">
+                <span class="contact-label">Τηλέφωνο / Viber / WhatsApp</span>
+                <span class="contact-val">+30 690 000 0000</span>
+              </div>
+            </a>
+
+            <!-- Email -->
+            <a
+              href="mailto:info@yourdomain.gr?subject=Ενδιαφέρον%20για%20Κατασκευή%20Ιστοσελίδας"
+              class="direct-contact-card"
+            >
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-info">
+                <span class="contact-label">Email Επικοινωνίας</span>
+                <span class="contact-val">info@yourdomain.gr</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="contact-note">
+            <i class="fas fa-clock"></i> Άμεση απόκριση εντός λίγων ωρών
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-col">
+          <h3>WebDev Solutions</h3>
+          <p>
+            Υπηρεσίες σχεδίασης ιστοσελίδων και συμμόρφωσης ΓΕΜΗ για
+            επιχειρήσεις και νέες ΙΚΕ, με σταθερά ετήσια πακέτα all-in-one.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h3>Πλοήγηση</h3>
+          <ul>
+            <li><a href="#services">Υπηρεσίες</a></li>
+            <li><a href="#pricing">Πακέτα & Τιμές</a></li>
+            <li><a href="#contact">Επικοινωνία</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3>Συμμόρφωση</h3>
+          <ul>
+            <li><a href="#pricing">Ν. 4072/2012 (Άρθρο 47)</a></li>
+            <li><a href="#pricing">ΓΕΜΗ & Δημοσιεύσεις</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 WebDev Solutions. Όλα τα δικαιώματα διατηρούνται.</p>
+      </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const navToggle = document.getElementById("nav-toggle");
+        const navMenu = document.getElementById("nav-menu");
+
+        if (navToggle && navMenu) {
+          navToggle.addEventListener("click", () => {
+            navMenu.classList.toggle("active");
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
